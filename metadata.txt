@@ -1,0 +1,29 @@
+[general]
+name=PostGIS Connection Tester
+name[fr]=Testeur de connexions PostGIS
+qgisMinimumVersion=3.22
+description=Tool to test PostGIS connections configured in QGIS, including authentication vault support.
+description[fr]=Outil pour tester les connexions PostGIS configurées dans QGIS, lecture du coffre-fort d'authentification incluse.
+version=1.0.0
+author=François THEVAND
+email=francois.thevand@gmail.com
+about=Allows you to select an existing PostGIS connection, view its parameters, and test the connection and an SQL query.
+	  If the username and password were saved in clear text and not in the vault, an alert will be displayed.
+about[fr]=Permet de sélectionner une connexion PostGIS existante, d'en afficher les paramètres et de tester la connexion ainsi qu'une requette SQL.
+		  Si l'identifiant et le mot de passe ont été enregistrés en clair, et pas dans le coffre-fort, une alerte s'affichera.
+category=Database
+homepage=https://github.com/your-repo/postgis-connection-tester
+tracker=https://github.com/your-repo/postgis-connection-tester/issues
+repository=https://github.com/your-repo/postgis-connection-tester
+experimental=False
+deprecated=False
+tags=postgis,database,connection,sql,authcfg,qgis
+
+# --- Localisation ---
+locale_path=i18n
+default_locale=en
+
+# --- Interface ---
+# icon=:/postgis_connection_tester/icon.svg
+icon=icon.svg
+hasProcessingProvider=no

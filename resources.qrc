@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="/postgis_connection_tester">
+    <file>icons/icon.svg</file>
+  </qresource>
+</RCC>
